@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Minh Le's Test</title>
 </head>
 <body>
@@ -20,6 +21,20 @@
         </div>
         <!-- 92% -->
         <div class="background">
+            <div class="bar" id="bar" onclick="showSidebar()">
+                <i class="fa-solid fa-bars" ></i>
+            </div>
+            <div class="overlay"></div>
+            <div class="sideBar_mobile">
+                <i class="fa-solid fa-xmark close_sideBar" onclick="closeSidebar()"></i>
+                <ul class="items">
+                    <li class="item homeItem">Home</li>
+                    <li class="item">Services</li>
+                    <li class="item">News</li>
+                    <li class="item">Blog</li>
+                    <li class="item">Contact</li>
+                </ul>
+            </div>
             <div class="backgound_container">
                 <div class="group1">
                     <div class="group1_img">
@@ -100,4 +115,5 @@
         </div>
     </div>
 </body>
+<script src="./assets/js/main.js"></script>
 </html>
