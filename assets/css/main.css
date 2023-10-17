@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+/* Side bar */
+.sideBar{
+    width: 150px;
+    height: 935px;
+    flex-shrink: 0;
+    background-color: #191718;;
+}
+
+ul li{
+    list-style:none ;
+    flex-shrink: 0;
+    border-bottom: 1px solid #5C5C5C;
+}
+ul li:hover{
+    background-color:#5C5C5C ;
+    color: #fff;
+}
+.item{
+    color: #5C5C5C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 11px 16px;
+}
+.homeItem {
+    color: #fff;
+}
+
+/* Background */
+.background{
+    width: 1768px;
+    height: 935px;
+
+}
+.backgound_container{
+    padding-top: 2%;
+    width: 1510px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+.group1{
+    display: flex;
+    justify-content: center;
+}
+.group1_img{
+    width: 310px;
+    height: 122px;  
+}
+.group1_img img{
+    width: 100%;
+}
+.group2{
+    background-color: #EFEFEF;
+    padding: 35px;
+    margin-top: 2%;
+}
+.group2_content{
+    width: 972px;
+    margin: auto;
+}
+.group2_content--heading{
+    padding: 10px 0;
+}
+.group2_content--heading p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.group2_content--text p{
+    text-align: center;
+}
+.group3{
+    display: flex;
+    margin-top: 2%;
+}
+.group3_item{
+    flex: 1;
+}
+.group3_item--heading{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 0;
+}
+.item_content--up{
+    display: flex;
+}
+.content_up--icon{
+    width: 128px;
+    height: 128px;
+}
+.content_up--icon img{
+    width: 100%;
+}
+.content_up--text{
+    width: 304px;
+    
+}
+.content_up--text p{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+        
+}
+.item_content--down{
+    width: 450px;
+}
+
+/* Horrizon */
+.horrizon{
+    width: 100%;
+}
+.horrizon p{
+    padding: 10px 20px;
+}
